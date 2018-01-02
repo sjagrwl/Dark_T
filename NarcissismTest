@@ -1,0 +1,309 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     Narcissism
+Instances:    600
+Attributes:   258
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: y, n
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.4015 * (normalized) positiv
+ +      -0.0312 * (normalized) negativ
+ +       0.5845 * (normalized) pstv
+ +       0.8193 * (normalized) affil
+ +       0.1783 * (normalized) ngtv
+ +       0.4164 * (normalized) hostile
+ +      -0.1173 * (normalized) strong
+ +      -0.3407 * (normalized) power
+ +      -0.2375 * (normalized) weak
+ +      -0.4737 * (normalized) submit
+ +      -0.0521 * (normalized) active
+ +       0.3171 * (normalized) passive
+ +       0.0269 * (normalized) pleasur
+ +      -0.0426 * (normalized) pain
+ +       0.1488 * (normalized) feel
+ +       0.0394 * (normalized) arousal
+ +      -0.5625 * (normalized) emot
+ +      -0.7989 * (normalized) virtue
+ +      -0.3583 * (normalized) vice
+ +       0.0781 * (normalized) ovrst
+ +       0.5292 * (normalized) undrst
+ +      -0.5804 * (normalized) academ
+ +       0.2336 * (normalized) doctrin
+ +      -0.4357 * (normalized) econ@
+ +       0.042  * (normalized) exch
+ +      -0.0302 * (normalized) econ
+ +       0.4105 * (normalized) exprsv
+ +       0.5394 * (normalized) legal
+ +       0.4944 * (normalized) milit
+ +      -0.3538 * (normalized) polit@
+ +       0.4818 * (normalized) polit
+ +      -0.3357 * (normalized) relig
+ +      -0.7964 * (normalized) role
+ +       0.7703 * (normalized) coll
+ +      -0.1769 * (normalized) work
+ +       0.2652 * (normalized) ritual
+ +      -0.4625 * (normalized) socrel
+ +       0.1986 * (normalized) race
+ +       0.597  * (normalized) kin@
+ +       0.3092 * (normalized) male
+ +       0.2882 * (normalized) female
+ +       0.7836 * (normalized) nonadlt
+ +      -0.0502 * (normalized) hu
+ +       0.0868 * (normalized) ani
+ +      -0.2203 * (normalized) place
+ +       0.0031 * (normalized) social
+ +       0.1237 * (normalized) region
+ +       0.225  * (normalized) route
+ +      -0.0783 * (normalized) aquatic
+ +       0.264  * (normalized) land
+ +      -0.4367 * (normalized) sky
+ +       0.4009 * (normalized) object
+ +       0.1911 * (normalized) tool
+ +       0.2056 * (normalized) food
+ +      -0.6367 * (normalized) vehicle
+ +       0.4512 * (normalized) bldgpt
+ +       1.2049 * (normalized) comnobj
+ +      -0.1929 * (normalized) natobj
+ +      -0.2888 * (normalized) bodypt
+ +      -0.3721 * (normalized) comform
+ +       0.2821 * (normalized) com
+ +      -1.1172 * (normalized) say
+ +       0.3581 * (normalized) need
+ +       0.8689 * (normalized) goal
+ +       0.0061 * (normalized) try
+ +      -1.0551 * (normalized) means
+ +      -0.465  * (normalized) persist
+ +      -0.1487 * (normalized) complet
+ +       0.2562 * (normalized) fail
+ +       0.637  * (normalized) natrpro
+ +      -0.2118 * (normalized) begin
+ +       0.1982 * (normalized) vary
+ +       0.387  * (normalized) increas
+ +       0.588  * (normalized) decreas
+ +      -0.609  * (normalized) finish
+ +      -0.3266 * (normalized) stay
+ +      -0.3243 * (normalized) rise
+ +       0.208  * (normalized) exert
+ +       0.3982 * (normalized) fetch
+ +       0.0047 * (normalized) travel
+ +       0.6221 * (normalized) fall
+ +      -0.4635 * (normalized) think
+ +       0.3744 * (normalized) know
+ +      -0.4664 * (normalized) causal
+ +       0.2458 * (normalized) ought
+ +      -0.1134 * (normalized) perceiv
+ +       0.0871 * (normalized) compare
+ +      -0.7784 * (normalized) eval@
+ +       0.1213 * (normalized) eval
+ +      -0.5887 * (normalized) solve
+ +      -0.0389 * (normalized) abs@
+ +      -0.1434 * (normalized) abs
+ +      -1.0735 * (normalized) quality
+ +      -0.3461 * (normalized) quan
+ +      -0.4447 * (normalized) numb
+ +      -0.0689 * (normalized) ord
+ +      -0.5767 * (normalized) card
+ +      -0.12   * (normalized) freq
+ +      -0.1351 * (normalized) dist
+ +       0.9924 * (normalized) time@
+ +       0.0597 * (normalized) time
+ +       0.1857 * (normalized) space
+ +      -0.4266 * (normalized) pos
+ +      -0.0476 * (normalized) dim
+ +       0.0381 * (normalized) rel
+ +       0.8054 * (normalized) color
+ +       0.0256 * (normalized) self
+ +       0.2247 * (normalized) our
+ +       0.732  * (normalized) you
+ +       0.4539 * (normalized) name
+ +      -0.3144 * (normalized) yes
+ +       0.3253 * (normalized) no
+ +      -0.404  * (normalized) negate
+ +      -0.2284 * (normalized) intrj
+ +      -0.0266 * (normalized) iav
+ +      -0.4317 * (normalized) dav
+ +      -0.207  * (normalized) sv
+ +      -0.8134 * (normalized) ipadj
+ +      -0.332  * (normalized) indadj
+ +      -0.1069 * (normalized) powgain
+ +       0.2119 * (normalized) powloss
+ +       0.0019 * (normalized) powends
+ +       0.1495 * (normalized) powaren
+ +       0.4169 * (normalized) powcon
+ +       1.0544 * (normalized) powcoop
+ +      -0.2689 * (normalized) powaupt
+ +       0.0977 * (normalized) powpt
+ +      -1.5701 * (normalized) powdoct
+ +       0.4627 * (normalized) powauth
+ +      -0.5214 * (normalized) powoth
+ +       0.3954 * (normalized) powtot
+ +       0.1248 * (normalized) rcethic
+ +       0.0024 * (normalized) rcrelig
+ +      -0.3516 * (normalized) rcgain
+ +       0.0714 * (normalized) rcloss
+ +       0.2597 * (normalized) rcends
+ +      -0.2108 * (normalized) rctot
+ +      -0.3964 * (normalized) rspgain
+ +       0.6442 * (normalized) rsploss
+ +      -0.1977 * (normalized) rspoth
+ +      -0.2431 * (normalized) rsptot
+ +      -0.9195 * (normalized) affgain
+ +       0.3206 * (normalized) affloss
+ +       0.3601 * (normalized) affpt
+ +       0.0408 * (normalized) affoth
+ +      -0.5617 * (normalized) afftot
+ +       0.5196 * (normalized) wltpt
+ +      -0.1642 * (normalized) wlttran
+ +      -0.2972 * (normalized) wltoth
+ +      -0.1509 * (normalized) wlttot
+ +       0.1589 * (normalized) wlbgain
+ +      -0.7988 * (normalized) wlbloss
+ +      -0.3184 * (normalized) wlbphys
+ +       0.3563 * (normalized) wlbpsyc
+ +       1.084  * (normalized) wlbpt
+ +      -0.2223 * (normalized) wlbtot
+ +      -0.7179 * (normalized) enlgain
+ +       0.9634 * (normalized) enlloss
+ +       0.3502 * (normalized) enlends
+ +      -0.8516 * (normalized) enlpt
+ +       0.3409 * (normalized) enloth
+ +      -0.0212 * (normalized) enltot
+ +       0.0745 * (normalized) sklasth
+ +       0.2955 * (normalized) sklpt
+ +       0.0813 * (normalized) skloth
+ +      -0.2784 * (normalized) trngain
+ +       0.1389 * (normalized) trnloss
+ +      -0.0649 * (normalized) tranlw
+ +       0.2664 * (normalized) meanslw
+ +       0.6992 * (normalized) endslw
+ +       1.4592 * (normalized) arenalw
+ +      -0.4895 * (normalized) ptlw
+ +       0.9433 * (normalized) nation
+ +       0.7102 * (normalized) anomie
+ +       0.4873 * (normalized) negaff
+ +      -1.3722 * (normalized) posaff
+ +      -0.1821 * (normalized) surelw
+ +       0.23   * (normalized) if
+ +       0.6621 * (normalized) notlw
+ +       0.0916 * (normalized) timespc
+ +      -0.5128 * (normalized) formlw
+ +       0.6184 * (normalized) preps
+ +      -0.7076 * (normalized) number
+ +      -0.0654 * (normalized) affect
+ +       0.6188 * (normalized) posemo
+ +      -1.0666 * (normalized) posfeel
+ +      -0.1892 * (normalized) optim
+ +       0.1959 * (normalized) negemo
+ +      -0.4281 * (normalized) anx
+ +       0.2419 * (normalized) anger
+ +       0.585  * (normalized) sad
+ +      -1.2511 * (normalized) pronoun
+ +       0.4385 * (normalized) cogmech
+ +      -0.2348 * (normalized) cause
+ +      -0.1405 * (normalized) insight
+ +       0.4333 * (normalized) discrep
+ +       0.3851 * (normalized) inhib
+ +       0.9179 * (normalized) tentat
+ +       0.3212 * (normalized) certain
+ +      -0.2803 * (normalized) senses
+ +       0.1854 * (normalized) see
+ +       1.0673 * (normalized) hear
+ +      -0.7265 * (normalized) comm
+ +      -0.1742 * (normalized) othref
+ +      -0.4182 * (normalized) friends
+ +      -0.0532 * (normalized) family
+ +       0.4749 * (normalized) humans
+ +       0.2877 * (normalized) past
+ +      -0.4937 * (normalized) present
+ +       0.6157 * (normalized) future
+ +      -0.2777 * (normalized) up
+ +      -0.2276 * (normalized) down
+ +      -0.7421 * (normalized) incl
+ +      -1.2483 * (normalized) excl
+ +      -0.2392 * (normalized) motion
+ +      -0.3918 * (normalized) occup
+ +      -0.3722 * (normalized) school
+ +       0.1689 * (normalized) job
+ +      -0.3544 * (normalized) achieve
+ +      -0.5396 * (normalized) home
+ +       0.2156 * (normalized) sports
+ +      -0.2686 * (normalized) tv
+ +      -0.6549 * (normalized) music
+ +      -0.2101 * (normalized) money
+ +       0.5724 * (normalized) death
+ +       1.3538 * (normalized) body
+ +      -0.1792 * (normalized) sexual
+ +      -0.8719 * (normalized) eating
+ +      -0.0532 * (normalized) sleep
+ +       0.2048 * (normalized) groom
+ +      -0.1886 * (normalized) swear
+ +      -1.2574 * (normalized) nonfl
+ +      -0.2016 * (normalized) fillers
+ +      -1.0761 * (normalized) similes
+ +      -0.0114 * (normalized) other
+ +       0.4702 * (normalized) assent
+ +       0.3533 * (normalized) article
+ +      -0.759  * (normalized) nlet
+ +      -0.4003 * (normalized) nphon
+ +      -0.2649 * (normalized) nsyl
+ +      -0.0886 * (normalized) k_f_freq
+ +       0.0477 * (normalized) k_f_ncats
+ +       0.5735 * (normalized) k_f_nsamp
+ +      -0.1134 * (normalized) t_l_freq
+ +      -0.1151 * (normalized) brown_freq
+ +       0.0129 * (normalized) fam
+ +      -0.0627 * (normalized) conc
+ +      -0.224  * (normalized) imag
+ +      -0.0751 * (normalized) meanc
+ +      -0.4948 * (normalized) meanp
+ +       0.25   * (normalized) aoa
+ +       1.1837
+
+Number of kernel evaluations: 91676 (91.093% cached)
+
+
+
+Time taken to build model: 0.09 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.01 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          53               54.0816 %
+Incorrectly Classified Instances        45               45.9184 %
+Kappa statistic                         -0.09  
+Mean absolute error                      0.4592
+Root mean squared error                  0.6776
+Relative absolute error                 94.7866 %
+Root relative squared error            137.8573 %
+Total Number of Instances               98     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.025    0.103    0.143      0.025    0.043      -0.150   0.461     0.402     y
+                 0.897    0.975    0.571      0.897    0.698      -0.150   0.461     0.574     n
+Weighted Avg.    0.541    0.619    0.397      0.541    0.430      -0.150   0.461     0.503     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+  1 39 |  a = y
+  6 52 |  b = n
+
